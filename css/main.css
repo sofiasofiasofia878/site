@@ -1,0 +1,404 @@
+body{
+font-family: 'DM Sans', sans-serif;
+}
+
+.offer{
+margin-top:-400px;
+}
+.offer__title{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.offer__text{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.button__div{
+    margin-bottom: 10px;
+}
+.button{
+    margin-bottom: 10px;
+    background-color:#40babd;
+    border-color: #40babd;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 180px;
+    font-weight: 700;
+    
+}
+.header{
+    background-image: url(../img/hero-1.jpg);
+    color: #c5cacf;
+}
+
+ul, li{
+    display: block;
+    margin: 30px;
+    padding: 0;
+}
+
+h1{
+    font-weight: 700;
+    color: #c5cacf;
+}
+
+/* h2{
+font-weight: 400;
+color: #494d55;
+text-align: center;
+} */
+
+.menu__item{
+margin: 0 35.50px;
+}
+
+.menu__item a{
+    font-size: 13px;
+    font-weight: 700;
+    color:#c5cacf;
+}
+
+.head{
+    margin-top: 100px;
+}
+
+.head__title{
+    color: #494d55;
+}
+.head__text{
+    color: #494d55;
+}
+.icons__main{
+    margin-top: 50px;
+}
+.figure__main{
+    margin-top: 110px;
+}
+.figure__logo{
+    color:darkturquoise;
+    font-size: 20px;
+    margin: 20px;
+}
+.figure__text{
+    color: #494d55;
+}
+
+
+/* CUSTOMERS */
+
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.customers{
+    background:#40babd url(../img/map.png) no-repeat center center;
+    background-size: 2000px;
+    color: #c5cacf;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.customers__logo{
+    margin: 40px;
+}
+.customers__main{
+    margin: 30px;
+}
+.stat{
+    color:black;
+}
+.customers__quote .quote__right{
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-left: 50px;
+    border-left: none;
+    margin-bottom: 0;
+    font-size: 14px;
+    min-height: 100px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    position: relative;
+    padding: 15px;
+}
+.customers__quote .quote__left{
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-right: 50px;
+    border-left: none;
+    margin-bottom: 0;
+    font-size: 14px;
+    min-height: 100px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    position: relative;
+    padding: 15px;
+}
+/* .customers__quote .quote__right{
+    position: absolute;
+    left: -10px;
+    top: 30px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgba(0, 0, 0, 0.2);
+}
+/* .quote__left{
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgba(0, 0, 0, 0.2);
+} */
+
+
+/* DISCOVER */
+
+
+.discover{
+  margin-bottom: 100px;
+}
+.discover__text__logo{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #c5cacf;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.discover__link{
+    text-decoration: none;
+    color:dimgrey;
+}
+.discover__link:hover{
+    text-decoration: none;
+    color:cyan;
+}
+.discover__text{
+    margin-top: -570px;
+}
+
+
+/* TEAM */
+
+
+#team{
+    background-color:whitesmoke;
+}
+h4{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+}
+.team__text1{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #c5cacf;
+}
+.team__text2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+
+.block__one{
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+.block__two{
+    background-color: white;
+    margin-bottom: 100px;
+}
+.team__img{
+    width: 120px;
+    margin-top: 40px;
+}
+.icon__1{
+    width: 27px;
+    margin: 10px;
+}
+.icon__main{
+    text-decoration: none;
+    width: 27px;
+}
+.fa-twitter-square{
+    color:#00acee;
+    margin-left: 320px;
+}
+.fa-facebook-square{
+    color:#4267B2;
+}
+.fa-github-square{
+    color: #333;
+}
+.fa-dribbble-square{
+    color: #ea4c89;
+}
+.fa-invision{
+    color: #2f7bbd;
+}
+h5{
+    color:darkturquoise;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.block__desk{
+    font-size: 700;
+    color: dimgrey;
+}
+.desk{
+    margin-top: 25px;
+    text-align: center;
+    color: dimgrey;
+    margin-bottom: 80px;
+}
+
+
+/* PRICING */
+
+
+h6{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+.price__logo{
+    text-align: center;
+    margin-bottom: 70px;
+    color: grey;
+}
+.price__block{
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.price__block__one{
+    background-color: #75c181;
+    margin-right: 30px;
+    border-radius: 8%;
+}
+.price__block__two{
+    background-color: #58bbee;
+    margin-right: 30px;
+    border-radius: 8%;
+}
+.price__block__three{
+    background-color: #F8A13F;
+    border-radius: 8%;
+}
+.h7{
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-top: 25px;
+}
+.price__sum{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.dollar{
+    color: grey;
+    font-size: 20px;
+    vertical-align: 50%;
+}
+.price__desk{
+    color:white;
+    text-align: center;
+}
+.price__link__text{
+    margin-top: 20px;
+    text-align: center;
+}
+.price__link{
+    color:gray;
+}
+.price__link:hover{
+    color:gray;
+}
+.price__button__div{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+}
+.price__button{
+    font-weight: 700;
+    padding: auto;
+    border: none;
+    outline: none;
+    border-radius: 13%;
+    background-color:black;
+    color: white;
+}
+.price__button__div:hover{
+    opacity: 0.5;
+}
+
+
+/* CONTACT */
+
+
+#contact{
+    background: url(../img/map.png) no-repeat center center;
+    background-color: #494d55;
+    padding: 20px;
+}
+.contact__logo{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 70px;
+}
+.contact__text{
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+.contact__button{
+    margin-bottom: 60px;
+}
+
+
+/* FOOTER */
+
+
+#footer{
+    background: #26282c;
+}
+.made{
+    color:gray;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: smaller;
+}
+.riley{
+    color: darkturquoise;
+}
